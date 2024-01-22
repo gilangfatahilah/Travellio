@@ -1,10 +1,15 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: "/", key: "home", label: "Home" },
-  { href: "/", key: "how_travellio_work", label: "How Travellio Work?" },
-  { href: "/", key: "services", label: "Services" },
-  { href: "/", key: "pricing ", label: "Pricing " },
-  { href: "/", key: "contact_us", label: "Contact Us" },
+  { href: "/", key: "home", label: "Home", delay: "150" },
+  {
+    href: "/",
+    key: "how_travellio_work",
+    label: "How Travellio Work?",
+    delay: "300",
+  },
+  { href: "/", key: "services", label: "Services", delay: "450" },
+  { href: "/", key: "pricing ", label: "Pricing ", delay: "600" },
+  { href: "/", key: "contact_us", label: "Contact Us", delay: "750" },
 ];
 
 // CAMP SECTION
@@ -52,7 +57,7 @@ export const FOOTER_LINKS = [
   {
     title: "Learn More",
     links: [
-      "About Hilink",
+      "About Travellio",
       "Press Releases",
       "Environment",
       "Jobs",
@@ -62,7 +67,7 @@ export const FOOTER_LINKS = [
   },
   {
     title: "Our Community",
-    links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
+    links: ["Climbing Travellio", "Hiking Travellio", "Camping Travellio"],
   },
 ];
 
@@ -70,17 +75,11 @@ export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
     { label: "Admin Officer", value: "123-456-7890" },
-    { label: "Email Officer", value: "hilink@akinthil.com" },
+    { label: "Email Officer", value: "gfa@dev.com" },
   ],
 };
 
 export const SOCIALS = {
   title: "Social",
-  links: [
-    "/facebook.svg",
-    "/instagram.svg",
-    "/twitter.svg",
-    "/youtube.svg",
-    "/wordpress.svg",
-  ],
+  links: ["/facebook.svg", "/instagram.svg", "/twitter.svg", "/youtube.svg"],
 };
