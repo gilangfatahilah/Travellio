@@ -5,15 +5,33 @@ const Guide = () => {
   return (
     <section className="flexCenter flex-col">
       <div className="padding-container max-container w-full pb-24">
-        <Image src="/camp.svg" alt="camp" width={50} height={50} />
-        <p className="uppercase regular-18 -mt-1 mb-3 text-green-50">
+        <Image
+          src="/camp.svg"
+          alt="camp"
+          width={50}
+          height={50}
+          data-aos="fade-up"
+        />
+        <p
+          className="uppercase regular-18 -mt-1 mb-3 text-green-50"
+          data-aos="fade-up"
+          data-aos-delay="150"
+        >
           We are here for you
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
+          <h2
+            className="bold-40 lg:bold-64 xl:max-w-[390px]"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             Guide You to Easy Path
           </h2>
-          <p className="regular-16 text-gray-30 xl:max-w-[520px]">
+          <p
+            className="regular-16 text-gray-30 xl:max-w-[520px]"
+            data-aos="fade-up"
+            data-aos-delay="450"
+          >
             Only with the hilink application you will no longer get lost and get
             lost again, because we already support offline maps when there is no
             internet connection in the field. Invite your friends, relatives and
@@ -32,7 +50,10 @@ const Guide = () => {
           className="w-full object-cover object-center 2xl:rounded-5xl"
         />
 
-        <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
+        <div
+          className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20"
+          data-aos="fade-up"
+        >
           <Image
             src="/meter.svg"
             alt="meter"
